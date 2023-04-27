@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script prints "Holberton school" 10 times
+# This script file prints "Holberton school" 10 times
 n=0
 
 until [ $n -ge 10 ]

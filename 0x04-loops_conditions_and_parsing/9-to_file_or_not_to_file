@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays information about the School file
+# This script displays information about the School file
 
 filename="School"
 
