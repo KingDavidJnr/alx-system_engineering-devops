@@ -14,7 +14,7 @@
 #     3. It initialize manage_my_process
 #     4. Creates a new file containing its PID in /var/run/my_process.pid
 #     5. And prints "manage_my_process restarted"
-#   If no other arguments are passed, it displays
+#   If no other arguments are passed, it git statdisplays
 #+  "Usage: manage_my_process {start|stop|restart}"
 
 if [ "${1}" == "start" ]
