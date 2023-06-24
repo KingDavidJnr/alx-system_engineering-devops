@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script starts connection to server 54.84.121.28 with key in ~/.ssh/school
+
+ssh -i ~/.ssh/school ubuntu@54.84.121.28
