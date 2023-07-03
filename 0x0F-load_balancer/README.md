@@ -1,21 +1,12 @@
 # Load balancer
+In this project, We wrote bash scripts to automate the even spread of web traffic to multiple servers so as to optimize web servers.
 
-In this project, I continued to build up the configuration of the web server
-issued in project 0x0B. I was issued two additional servers, one to replicate
-the Nginx configuration of my original server, and another to set up an HAproxy
-load balancer on to manage both web servers.
+## Background Context
+You have been given 2 additional servers:
 
-## Tasks :page_with_curl:
+* gc-[STUDENT_ID]-web-02-XXXXXXXXXX
+* gc-[STUDENT_ID]-lb-01-XXXXXXXXXX
 
-* **0. Double the number of webservers**
-  * [0-custom_http_response_header](./0-custom_http_response-header): Bash
-  script that installs and configures Nginx on a server with a custom HTTP
-  response header.
-    * The name of the HTTP header is `X-Served-By`.
-    * The value of the HTTP header is the hostname of the server.
+Let’s improve our web stack so that there is redundancy for our web servers. This will allow us to be able to accept more traffic by doubling the number of web servers, and to make our infrastructure more reliable. If one web server fails, we will still have a second one to handle requests.
 
-* **1. Install your load balancer**
-  * [1-install_load_balancer](./1-install_load_balancer): Bash script that
-  installs and configures HAproxy version 1.5 on a server.
-    * Enables management via the init script.
-    * Requests are distributed using a round-robin algorithm.
+For this project, you will need to write Bash scripts to automate your work. All scripts must be designed to configure a brand new Ubuntu server to match the task requirements.
