@@ -4,4 +4,3 @@ This repo contains all the Systems Engineering and DevOps projects done during t
 It will be updated from time to time.
 
 Thanks for dropping by.
-<hr>
