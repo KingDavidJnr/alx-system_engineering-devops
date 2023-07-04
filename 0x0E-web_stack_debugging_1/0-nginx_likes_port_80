@@ -1,0 +1,10 @@
+#!/usr/bin/env bash                                                                                                                                       
+# Debugs nginx to listen on port 80                                                                                                                          
+# Navigates to sites-enabled folder for Nginx                                                                                                                    
+cd /etc/nginx/sites-enabled/ || exit;                                                                                                                             
+# Erases the default file                                                                                                                               
+rm default;                                                                                                                                               
+# Createsthe symbolic link to the deafult file in sites-available                                                                                             
+ln -s /etc/nginx/sites-available/default default;                                                                                                         
+# Restart the Nginx server                                                                                                                                         
+service nginx restart 
