@@ -1,8 +1,6 @@
 # HTTPS SSL
 
-In this project, I learned about the importance of HTTPS and how it works. I
-configured my HolbertonBnB web servers with `certbot` certificate and HAproxy
-SSL termination.
+This ALX devops project helps one to learn about the significaance of HTTPS and how it works. At the end of the project, we have configured our HolbertonBnB web servers with `certbot` certificate and HAproxy SSL termination.
 
 ## Tasks :page_with_curl:
 
