@@ -1,8 +1,12 @@
 # 0x11. What happens when you type google.com in your browser and press Enter
+This project examines your understanding of DNS. Many software engineering candidates struggle with this concept, so if you do well on this question, you are already way ahead of the curve. If you take this project seriously and write an excellent article, it may be something that will grab the attention of future employers.
 
-In this project, I was asked to write an article to explain all about the web 2.0 infrastructure. Understanding this concept is very important for me as a Fullstack Software Engineer. Reviewing and encapsulating networking knowledge and skills I had been learning
-and practicing over the last month, in this project, I wrote a blog post
-answering the classic interview question - "What happens when you type a URL into a browser and hit `Enter`?"
+## Background Concept
+Being a Full-Stack Software Engineer means you’re comfortable interacting with any layer of the stack.
+
+A way to easily assess this is to simply ask an engineer to explain how a software system works. They can have a general overview of the flow or can choose to dig deep in a certain area.
+
+Let’s practice by exploring the infrastructure side (network, servers, security…) of the question.
 
 ## Task Responses :page_with_curl:
 
@@ -46,4 +50,4 @@ The diagram should show:
 - that the application server generates the web page
 - that the application server request data from the database
 
-I hosted the diagram image [here](https://imgbox/...)
+<hr>
