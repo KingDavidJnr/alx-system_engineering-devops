@@ -1,11 +1,10 @@
 # API advanced
 
-I continued to practice querying API's in this advanced project, this time
-working with the Reddit API.
+This project helps one to understand how to use Python to automate system administration, beyond Bash scripting. It teaches you how to use APIs to interact with datasets of public softwares.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files for all tasks. Provided by ALX.
+* [tests](./tests): Folder of test files for all tasks.
 
 ## Function Prototypes :floppy_disk:
 
