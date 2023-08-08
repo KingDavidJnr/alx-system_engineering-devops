@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Config for top_ten function"""
+"""Contains top_ten function"""
 import requests
 
 
 def top_ten(subreddit):
-    """Oytputs the titles of the ten hottest posts on any given subreddit."""
+    """Print the titles of the 10 hottest posts on a given subreddit."""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
         "User-Agent": "0x16-api_advanced:project:\
